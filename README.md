@@ -48,7 +48,7 @@ The [docs](#todo) are the perfect place for you to start getting used to Stock A
 
 ## Developer Guidelines 👩‍💻
 
-The [contributing guidelines](https://github.com/techonerd/stock-assist/blob/main/CONTRIBUTIONS.md) hosts all the information about building Stock Assist from source, how to contribute code and documentation, who to contact about what, etc.
+The [contributing guidelines](https://github.com/techonerd/stock-assist/blob/main/CONTRIBUTING.md) hosts all the information about building Stock Assist from source, how to contribute code and documentation, who to contact about what, etc.
 
 ## Get started with Stock Assist (For Developers) 🌐
 
