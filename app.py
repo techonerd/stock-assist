@@ -1,6 +1,8 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
+import utils
+
 st.set_page_config(
     page_title="Stock Assist",
     page_icon="🔍",  # EP: how did they find a symbol?
@@ -21,5 +23,10 @@ st.markdown('Search your favourite stock and predict the price for the next 30 d
 
 c = st.container()
 stock = c.text_input(label="stock_to_search", placeholder="Enter stock to search", label_visibility="hidden")
-# if stock:
-#     st.write("Searching for stock: ", stock)
+
+if stock:
+    datas = utils.get_stocks(stock)
+    for data in datas:
+        print(data)
+        st.metric(label=data["4. region"], value=data["2. name"], delta=data["8. currency"])
+
