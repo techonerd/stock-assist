@@ -21,14 +21,13 @@ st.markdown('Search your favourite stock and predict the price for the next 30 d
 # def search():
 #     search = st.button("🔍")
 
-c = st.container()
-if stock := c.text_input(
-    label="stock_to_search",
-    placeholder="Enter stock to search",
-    label_visibility="hidden",
-):
-    datas = utils.get_stocks(stock)
-    for data in datas:
-        print(data)
-        st.metric(label=data["4. region"], value=data["2. name"], delta=data["8. currency"])
+c = st.columns(3)
+stock = c[1].text_input(label="stock_to_search", placeholder="Enter stock to search", label_visibility="hidden")
+
+with c[1]:
+    if stock:
+        datas = utils.get_stocks(stock)
+        for data in datas:
+            print(data)
+            st.metric(label=data["4. region"], value=data["2. name"], delta=data["8. currency"])
 
