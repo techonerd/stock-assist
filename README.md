@@ -9,6 +9,10 @@
 
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 ![Contributions welcome](https://img.shields.io/badge/contributions-welcome-orange.svg)
+[![GitHub issues](https://img.shields.io/github/issues-raw/techonerd/stock-assist?color=red)](https://github.com/techonerd/stock-assist/issues?q=is%3Aopen+is%3Aissue)
+[![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/techonerd/stock-assist)](https://github.com/techonerd/stock-assist/issues?q=is%3Aissue+is%3Aclosed)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/techonerd/stock-assist?color=brightgreen)](https://github.com/techonerd/stock-assist/pulls?q=is%3Aopen+is%3Apr)
+[![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed-raw/techonerd/stock-assist?color=green)](https://github.com/techonerd/stock-assist/pulls?q=is%3Apr+is%3Aclosed)
 [![Discord](https://img.shields.io/badge/Join%20Our%20Community-Discord-purple)](#todo)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://img.shields.io/badge/License-MIT-blue.svg)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.0-4baaaa.svg)](CODE_OF_CONDUCT.md)
