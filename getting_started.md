@@ -18,6 +18,6 @@
 ## Running Project
 1. After successful installation of dependencies, start project by running:
 
-    ``streamlit run app.py``
+    ``streamlit run Hello.py``
 
     **App URL:** http://localhost:8501
