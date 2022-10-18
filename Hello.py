@@ -27,7 +27,5 @@ stock = c[1].text_input(label="stock_to_search", placeholder="Enter stock to sea
 with c[1]:
     if stock:
         datas = utils.get_stocks(stock)
-        for data in datas:
-            print(data)
-            st.metric(label=data["4. region"], value=data["2. name"], delta=data["8. currency"])
-
+        options = [data["4. region"] for data in datas]
+        value = st.selectbox("Select your stock", options, format_func=lambda x: x)
