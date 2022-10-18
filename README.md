@@ -38,7 +38,7 @@ The [docs](#todo) are the perfect place for you to start getting used to Stock A
 
 #### Want to setup locally? 🏠
 
-- Start with our [getting started docs](#todo).
+- Start with our [getting started docs](https://github.com/techonerd/stock-assist/blob/main/getting_started.md).
 
 - The doc didn't help? [Join our slack](#todo) and ask your questions!
 
@@ -85,7 +85,7 @@ For more details, join our community on [discord](#todo)
   <img src="https://contrib.rocks/image?repo=techonerd/stock-assist" />
 </a>
 
-Made with [contrib.rocks](https://contrib.rocks).
+Made with [contrib.rocks](https://contrib.rocks/preview?repo=techonerd%2Fstock-assist).
 
 ## Copyright and Licensing ©
 

@@ -99,7 +99,7 @@ Give specific concrete examples as well as the format. Many people find it easie
 
 ## Running a development version
 
-@TODO: tell people how to use their fork of your project locally.
+For steps to setup and run the project locally refer to our [Getting Started document](https://github.com/techonerd/stock-assist/blob/main/getting_started.md)
 
 ## License
 
