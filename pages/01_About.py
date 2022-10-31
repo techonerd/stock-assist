@@ -4,8 +4,8 @@ st.set_page_config(
     page_title="About",
     page_icon="	ℹ️",
 )
-
-st.write("# Welcome to Stock Assist! 👋")
+st.title("About us :information_source:")
+# st.write("# Welcome to Stock Assist! 👋")
 
 # st.sidebar.success("Select a demo above.")
 
