@@ -2,10 +2,9 @@ import streamlit as st
 
 st.set_page_config(
     page_title="F&Q",
-    page_icon="❓",
 )
-
-st.write("# Welcome to Stock Assist F&Q! 👋")
+st.title("F&Q :question:")
+# st.write("# Welcome to Stock Assist F&Q! 👋")
 body =   """
             <details>
                 <summary>What is stock assist?</summary>
